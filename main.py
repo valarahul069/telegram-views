@@ -4,9 +4,7 @@ from configparser import ConfigParser
 from os import system, name
 from threading import Thread, active_count
 from re import search, compile
-import sys
 
-post_url = sys.argv[1]
 
 
 THREADS = 5000
